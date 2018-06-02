@@ -27,14 +27,14 @@ Ce guide vous explique la procédure à suivre afin de modifier la configuration
 > Il est possible de lire le fichier  resolv.conf  afin de vérifer quel est
 > le serveur DNS configuré :
 > 
-> ```bash
-> root@instance:~$ cat /etc/resolv.conf
-> 
-> domain local
-> search local
-> nameserver 213.186.33.99
-> ```
->
+ ```bash
+ root@instance:~$ cat /etc/resolv.conf
+ 
+ domain local
+ search local
+ nameserver 213.186.33.99
+ ```
+
 - Éditer le fichier /etc/dhcp/dhclient.conf
 - Y ajouter la ligne permettant d'ajouter le nouveau serveur DNS en plus de celui par défaut
 
